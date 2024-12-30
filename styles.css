@@ -6,72 +6,40 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Estilo del header */
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Ajusta el padding si es necesario */
     background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
 }
 
-h1 {
-    margin: 0;
+/* Logo a la izquierda */
+.logo-left {
+    max-width: 100px;  /* Ajusta el tamaño del logo */
+    height: auto;
 }
 
-/* Sección principal con contenido */
+/* Logo a la derecha */
+.logo-right {
+    max-width: 100px;  /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
+/* Estilos para el contenido */
 section {
     padding: 40px;
     margin: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    min-height: 400px; /* Aumentamos el tamaño de la sección */
+    min-height: 400px;
 }
 
 /* Títulos de las secciones */
 h2 {
     color: #2c3e50;
-    margin-bottom: 10px;
-}
-
-/* Estilos para las tablas */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-/* Estilo para las celdas de la tabla */
-th, td {
-    padding: 12px;  /* Aumentamos el padding */
-    text-align: left;
-    border: 1px solid #ddd;
-}
-
-th {
-    background-color: #2c3e50;
-    color: white;
-}
-
-/* Asegurarnos que las tablas se adapten sin desbordamiento */
-table-container {
-    width: 100%;
-    overflow: hidden; /* No permitimos desbordamientos */
-}
-
-table {
-    table-layout: fixed; /* Hace que las celdas tengan un tamaño uniforme */
-}
-
-/* Estilos para la sección de estadísticas */
-.statistics {
-    background-color: #ecf0f1;
-    padding: 15px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-.statistics div {
-    margin-bottom: 10px;
 }
 
 /* Pie de página */
@@ -81,4 +49,5 @@ footer {
     background-color: #2c3e50;
     color: white;
 }
+
 
